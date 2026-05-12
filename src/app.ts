@@ -19,8 +19,5 @@ export function buildApp(options: FastifyServerOptions = {}) {
     };
   });
 
-  const num: number = 'this is not a number';
-  export { num };
-
   return app;
 }
