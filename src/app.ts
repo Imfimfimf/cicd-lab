@@ -1,5 +1,3 @@
-const num: number = 'not a number' as unknown as number;
-const _unused: number = num + (true as any as number);
 import Fastify, { FastifyServerOptions } from 'fastify';
 
 export function buildApp(options: FastifyServerOptions = {}) {
@@ -20,6 +18,9 @@ export function buildApp(options: FastifyServerOptions = {}) {
       status: 'ok'
     };
   });
+
+  const num: number = 'this is not a number';
+  export { num };
 
   return app;
 }
