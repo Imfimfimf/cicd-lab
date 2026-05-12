@@ -1,5 +1,5 @@
 // @ts-expect-error
-const num: number = "not a number" as unknown as number;
+const num: number = 'not a number' as unknown as number;
 const _unused: number = num + (true as any as number);
 import Fastify, { FastifyServerOptions } from 'fastify';
 
