@@ -21,3 +21,5 @@ export function buildApp(options: FastifyServerOptions = {}) {
 
   return app;
 }
+
+export const num: number = 'hello';
