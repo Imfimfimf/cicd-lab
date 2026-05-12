@@ -21,3 +21,5 @@ export function buildApp(options: FastifyServerOptions = {}) {
 
   return app;
 }
+
+const num: number = "this is not a number";
